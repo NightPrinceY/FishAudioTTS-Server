@@ -1,0 +1,26 @@
+# Model weights — too large for git (11GB)
+s2-pro/
+
+# fish-speech is a separate repo — clone from github.com/fishaudio/fish-speech
+fish-speech/
+
+# Reference voice audio
+voice/
+
+# Generated outputs and logs
+testing/server.log
+testing/sample_output.wav
+nohup.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Claude session memory
+.claude/
